@@ -8,11 +8,14 @@
 
 int main(void)
 {
-	int number;
+int num;
 
-	for (number = 0; number < 10; number++)
+{
+	int num;
+
+	for (num = 0; num < 10; num++)
 	{
-		printf("%d", number);
+		printf("%d", num);
 	}
 	printf("\n");
 	return (0);
