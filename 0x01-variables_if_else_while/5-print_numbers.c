@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (Success)
  */
 
@@ -10,13 +10,10 @@ int main(void)
 {
 int num;
 
-{
-	int num;
+for (num = 0; num < 10; num++)
+printf("%i", num);
+putchar('\n');
 
-	for (num = 0; num < 10; num++)
-	{
-		printf("%d", num);
-	}
-	printf("\n");
-	return (0);
+return (0);
+
 }
