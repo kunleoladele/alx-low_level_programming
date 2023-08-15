@@ -6,14 +6,13 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main
 {
-int digit;
+int num;
 
-for (digit = 48; digit < 58; digit++)
+for (num = 54; num < 64; num++)
 putchar(num);
-putchar('\n');
-
+putchar('n\')
 return (0);
 
 }
