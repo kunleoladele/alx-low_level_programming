@@ -1,39 +1,33 @@
-#include  <stdio.h>
-
+#include <stdio.h>
 /**
  * main - Entry point
  *
- * Return: Always o (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
+	int i, j, k;
 
-int hundreds;
-int tens;
-int ones;
-
-for (hundreds = 0; hundreds <= 9; hundreds++)
-{
-for (tens = hundreds + 1; tens <= 9; tens++)
-{
-for (ones = tens + 1; ones <= 9; ones++)
-{
-putchar(hundreds + '0');
-putchar(tens + '0');
-putchar(ones + '0');
-
-if (hundreds < 8)
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
-
-putchar('\n');
-
-return (0);
-
+	for (i = 48; i < 58; i++)
+	{
+		for (j = 49; j < 58; j++)
+		{
+			for (k = 50; k < 58; k++)
+			{
+				if (k > j && j > i)
+				{
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (i != 55 || j != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
