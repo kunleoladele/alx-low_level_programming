@@ -2,22 +2,18 @@
 
 /**
  * main - Entry point
- *
+ * 
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-char num;
+	int num;
+	char alphabet;
 
-for (num = '0'; num <= '9'; num++)
-putchar(digit);
-
-for (num = 'a'; num <= 'f'; num++)
-putchar(num);
-
-putchar('\n');
-
-return (0);
-
+	for (num = 48; num < 58; num++)
+		putchar(num);
+	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
+		putchar(alphabet);
+	putchar('\n');
+	return (0);
 }
