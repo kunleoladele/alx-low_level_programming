@@ -1,1 +1,1 @@
-learning debugging technique
+ALX_0x03-debugging: Learning how to debug
