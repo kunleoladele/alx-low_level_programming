@@ -1,8 +1,7 @@
-/**
-*File:main.h
-*Desc:header file containing functions declaration
-*/
+#ifndef PUTCHAR_P_INCLUDED
+#defined PUTCHAR_P_INCLUDED
 
+int _putchar(char)
 void print_alphabet(void);
 void jack_bauer(void);
 void print_alphabet_x10(void);
