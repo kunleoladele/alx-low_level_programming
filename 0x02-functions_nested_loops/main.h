@@ -1,5 +1,5 @@
-#ifndef PUTCHAR_P_INCLUDED
-#defined PUTCHAR_P_INCLUDED
+#ifndef HOLBERTON_H_INCLUDED
+#defined HOLBERTON_H_INCLUDED
 
 int _putchar(char)
 void print_alphabet(void);
